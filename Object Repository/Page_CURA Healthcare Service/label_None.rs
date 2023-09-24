@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>td_30</name>
+   <name>label_None</name>
    <tag></tag>
-   <elementGuidId>fa47fa4c-59d9-4ea9-ae46-06084d768cae</elementGuidId>
+   <elementGuidId>d770ba74-6cea-4131-94cf-ba82867dc2dd</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='Sa'])[1]/following::td[35]</value>
+         <value>//section[@id='appointment']/div/div/form/div[3]/div/label[3]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,79 +21,85 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>td</value>
-      <webElementGuid>99fb3b5a-450b-4e5b-8421-7aa5f48b2af1</webElementGuid>
+      <value>label</value>
+      <webElementGuid>45718081-84f7-443c-b020-3189c3ed6306</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>day</value>
-      <webElementGuid>0198502e-b6ae-43d7-a759-3e66536be134</webElementGuid>
+      <value>radio-inline</value>
+      <webElementGuid>94556b99-8115-45b8-b9d1-12e2296b9156</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>30</value>
-      <webElementGuid>a2daa6dc-0e24-4961-bd0c-247f83998de8</webElementGuid>
+      <value>
+                             None
+                        </value>
+      <webElementGuid>7c66aeeb-c1f3-48f1-bee2-2c1834ff12c9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[1]/body[1]/div[@class=&quot;datepicker datepicker-dropdown dropdown-menu datepicker-orient-left datepicker-orient-top&quot;]/div[@class=&quot;datepicker-days&quot;]/table[@class=&quot;table-condensed&quot;]/tbody[1]/tr[5]/td[@class=&quot;day&quot;]</value>
-      <webElementGuid>76d8540f-92ec-4e31-bc31-069a241590d1</webElementGuid>
+      <value>id(&quot;appointment&quot;)/div[@class=&quot;container&quot;]/div[@class=&quot;row&quot;]/form[@class=&quot;form-horizontal&quot;]/div[@class=&quot;form-group&quot;]/div[@class=&quot;col-sm-4&quot;]/label[@class=&quot;radio-inline&quot;]</value>
+      <webElementGuid>cb430e90-f60e-4b7e-a25c-9946209de0c5</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
+      <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sa'])[1]/following::td[35]</value>
-      <webElementGuid>f30e450b-a5b5-46a8-be5e-fff3d0b1f038</webElementGuid>
+      <value>//section[@id='appointment']/div/div/form/div[3]/div/label[3]</value>
+      <webElementGuid>e5885487-4e5e-4ad3-b6f0-9131d4586270</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Fr'])[1]/following::td[35]</value>
-      <webElementGuid>6c79883a-4958-491e-9cbe-b1fb9948e9a1</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Visit Date (Required)'])[1]/preceding::label[1]</value>
+      <webElementGuid>8944cea6-7cf6-45d8-ac91-31306687dcc2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Today'])[1]/preceding::td[8]</value>
-      <webElementGuid>bfcb514f-2052-4087-a7de-a70a5d468cef</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Comment'])[1]/preceding::label[2]</value>
+      <webElementGuid>7b066e31-0df8-4ee5-9d9c-664c556c4582</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Clear'])[1]/preceding::td[8]</value>
-      <webElementGuid>27533946-25f6-4709-9efc-3cc85edce75a</webElementGuid>
+      <value>//*/text()[normalize-space(.)='None']/parent::*</value>
+      <webElementGuid>59bd887e-3064-44f7-8fab-83ae258df411</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//tr[5]/td[7]</value>
-      <webElementGuid>b879d5a3-51d0-41fe-97c7-1466df2d2b5e</webElementGuid>
+      <value>//label[3]</value>
+      <webElementGuid>a6377933-9c29-40c1-bd5c-0398cd7c2d93</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//td[(text() = '30' or . = '30')]</value>
-      <webElementGuid>15e304c0-e54f-48e5-ad33-9d078251e606</webElementGuid>
+      <value>//label[(text() = '
+                             None
+                        ' or . = '
+                             None
+                        ')]</value>
+      <webElementGuid>b74be916-be26-497f-8283-af73168f31c3</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
